@@ -292,20 +292,38 @@ margin-left: 1em;
 /*TUOTESIVU*/
 .addincart{
   font-family: 'Nunito', sans-serif;
-  border-radius: 5px;
-  margin-bottom: 1em;
-  margin-left: 1em;
+  margin-bottom: 0.5em;
+  color: white;
+  background-color: #18181a;
+  border: none;
+  text-align: center;
+  padding: 8px 18px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: normal;
 }
 .tuotesivu{
   padding: 5px;
   align-items: center;
 }
 .returnbutton{
-  border-radius: 5px;
-  margin-left: 1em;
+  background-color: #18181a;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 15px 13px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
 }
 .linkkiverkkokauppaan{
-  color: black;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
 }
 /*KARUSELLI*/
 .carousel-item{
