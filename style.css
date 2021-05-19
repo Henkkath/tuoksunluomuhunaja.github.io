@@ -66,7 +66,9 @@ main{
 a {
   color: white;
 }
-
+.video{
+  padding:1em;
+}
 /*sivupalkki*/
 aside{
   width: 20%;
@@ -97,14 +99,9 @@ h2{
   color:white;
   padding: 5px;
 }
-
-
-
-
 /*Tuotevalikoima*/
 .tuotevalikoima{
   width: 100%;
-;
 }
 .kauppaotsikko{
   padding:0.5em;
@@ -302,6 +299,7 @@ margin-left: 1em;
   text-decoration: none;
   display: inline-block;
   font-weight: normal;
+  border-radius: 5px;
 }
 .tuotesivu{
   padding: 5px;
@@ -317,6 +315,7 @@ margin-left: 1em;
   text-decoration: none;
   display: inline-block;
   font-family: 'Nunito', sans-serif;
+  border-radius: 5px;
 }
 .linkkiverkkokauppaan{
   text-align: center;
@@ -325,10 +324,7 @@ margin-left: 1em;
   text-decoration: none;
   font-weight: normal;
 }
-/*KARUSELLI*/
-.carousel-item{
-  padding: 2em;
-}
+
 /*BLOG*/
 .blogtext{
   padding: 1em;
