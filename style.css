@@ -1,10 +1,10 @@
 /*etusivu*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
-body {
+html,body{
   display: -webkit-box;
   display: -ms-flexbox;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Nunito', sans-serif;
@@ -13,7 +13,7 @@ body {
   width: 100%;
   justify-content: center;
   margin: 0;
-  padding 0;
+  padding: 0;
 }
 /*navigointi*/
 header{
@@ -28,7 +28,7 @@ header{
 }
 
 main{
-  width: 70%;
+  width: 85%;
   margin:0;
   padding: 0;
   margin-bottom:2em;
@@ -44,17 +44,13 @@ main{
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
 }
-.container{
-  width:100% !important;
-  padding: 0 !important;
-  justify-content: center !important;
-  margin: 0 !important;
-  margin-right: 0 !important;
-  margin-top:1em !important;
-}
 .row{
   align-items: center;
-  margin:0;
+  justify-content: center;
+}
+.col-md-4{
+  justify-content: center;
+  align-items: center;
 }
 .otsakekuva{
   background: url(img/comb.jpg);
@@ -74,9 +70,12 @@ a {
 .video{
   padding:1em;
 }
+.container-fluid{
+  box-sizing: border-box !important;
+}
 /*sivupalkki*/
 aside{
-  width: 30%;
+  width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   box-sizing: border-box;
@@ -192,20 +191,19 @@ margin-left: 1em;
   display:flex;
 }
 
-
-
 /*FOOTER*/
 
 .footer {
-  width: 90vw;
+  width:100vw;
   left:0;
   bottom: 0;
   display: flex;
   overflow: hidden;
   padding: 1em;
-  background-color:yellow;
+  background-color:#18181a;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .inner-footer {
@@ -246,7 +244,7 @@ margin-left: 1em;
   text-decoration: underline;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
-  color: black;
+  color: white;
   display: block;
   width: 100%;
   margin-bottom: 0px;
@@ -255,7 +253,7 @@ margin-left: 1em;
 .inner-footer .footer-third a {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
-  color: black;
+  color: white;
   display: block;
   font-weight: 200;
   width: 100%;
@@ -270,7 +268,7 @@ margin-left: 1em;
 }
 
 .inner-footer .footer-third span {
-  color: black;
+  color: white;
   font-family: 'Nunito' sans-serif;
   font-size: 18px;
   font-weight: 200;
@@ -295,7 +293,7 @@ margin-left: 1em;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color: black;
+  color: white;
 }
 
 /*TUOTESIVU*/
