@@ -10,6 +10,10 @@ body {
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
   background:yellow;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  padding 0;
 }
 /*navigointi*/
 header{
@@ -24,8 +28,9 @@ header{
 }
 
 main{
-  width: 80%;
+  width: 70%;
   margin:0;
+  padding: 0;
   margin-bottom:2em;
 }
 @media only screen and (max-width: 600px) {
@@ -71,7 +76,7 @@ a {
 }
 /*sivupalkki*/
 aside{
-  width: 20%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   box-sizing: border-box;
@@ -170,12 +175,19 @@ form {
           align-items: center;
 margin-left: 1em;
 }
-
-.submitbutton {
-  border-radius: 1em;
+.submit{
+  background-color: #18181a;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 5px;
+  width: 5em;
 }
-
-
 .kuvat{
   display:flex;
 }
@@ -185,13 +197,13 @@ margin-left: 1em;
 /*FOOTER*/
 
 .footer {
+  width: 90vw;
   left:0;
   bottom: 0;
-  width: 100vw;
   display: flex;
   overflow: hidden;
   padding: 1em;
-  background-color: #18181a;
+  background-color:yellow;
   align-items: center;
   justify-content: center;
 }
@@ -234,7 +246,7 @@ margin-left: 1em;
   text-decoration: underline;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
-  color: white;
+  color: black;
   display: block;
   width: 100%;
   margin-bottom: 0px;
@@ -243,7 +255,7 @@ margin-left: 1em;
 .inner-footer .footer-third a {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
-  color: white;
+  color: black;
   display: block;
   font-weight: 200;
   width: 100%;
@@ -258,7 +270,7 @@ margin-left: 1em;
 }
 
 .inner-footer .footer-third span {
-  color: white;
+  color: black;
   font-family: 'Nunito' sans-serif;
   font-size: 18px;
   font-weight: 200;
@@ -283,7 +295,7 @@ margin-left: 1em;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color: white;
+  color: black;
 }
 
 /*TUOTESIVU*/
