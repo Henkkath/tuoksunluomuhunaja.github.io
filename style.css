@@ -141,13 +141,6 @@ h2{
   position: relative;
   top: 100%;
 }
-.images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
 
 ul {
   display: -webkit-box;
@@ -382,7 +375,6 @@ footer{
   color: white;
   text-decoration: none;
   font-weight: normal;
-}
 }
 /*BLOG*/
 .blogtext{
