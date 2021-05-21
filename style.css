@@ -1,7 +1,10 @@
 /*etusivu*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
-html,body{
+html{
+  width:100%;
+}
+body{
   display: -webkit-box;
   display: -ms-flexbox;
   box-sizing: border-box !important;
@@ -9,7 +12,7 @@ html,body{
   flex-wrap: wrap;
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
-  background:yellow;
+  background:#F9DB6D;
   width: 100%;
   justify-content: center;
   margin: 0;
@@ -18,7 +21,6 @@ html,body{
 /*navigointi*/
 header{
   width:100%;
-  border-radius: 1em;
 }
 .navbar{
   background:#18181a !important;
@@ -42,15 +44,11 @@ main{
 .etusivuotsikko{
   color:white;
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 60px;
 }
 .row{
   align-items: center;
   justify-content: center;
-}
-.col-md-4{
-  justify-content: center;
-  align-items: center;
 }
 .otsakekuva{
   background: url(img/comb.jpg);
@@ -63,7 +61,6 @@ main{
   align-items: center;
   padding:1em;
 }
-
 a {
   color: white;
 }
@@ -87,23 +84,49 @@ aside{
   background-size: cover;
   margin: 0;
 }
-
-.sidebarcontent{
+ .sidebarcontent{
   font-size: 20px;
   color:white;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 ol{
-  padding:0; 
+  padding:0;
 }
 h2{
-  font-size: 23px;
+  font-size: 25px;
   padding:0;
-  margin-left:5px;
   color:white;
-  padding: 5px;
+  margin-left: 20px;
 }
 /*Tuotevalikoima*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container img {
+  width: 250px;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 7%;
+  left: 140%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 12px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
 .tuotevalikoima{
   width: 100%;
 }
@@ -113,7 +136,11 @@ h2{
 .kauppainfo{
   margin-left:20px;
 }
-
+.figure .quickcart{
+  color:black;
+  position: relative;
+  top: 100%;
+}
 .images {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,14 +160,12 @@ ul {
 }
 
 li {
-  position: relative;
   list-style: none;
   align-items: center;
 }
 
 figure {
-  margin:20px;
-  position: relative;
+  margin:9px;
 }
 
 figure figcaption {
@@ -148,8 +173,8 @@ figure figcaption {
   bottom: 0;
   color: white;
   background: rgba(0, 0, 0, 0.5);
-  width: 100%;
   text-align: center;
+  width: 250px;
 }
 
 h3 {
@@ -175,7 +200,7 @@ form {
 margin-left: 1em;
 }
 .submit{
-  background-color: #18181a;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   text-align: center;
@@ -187,20 +212,25 @@ margin-left: 1em;
   border-radius: 5px;
   width: 5em;
 }
+.submit:hover{
+  background-color: black;
+}
 .kuvat{
   display:flex;
 }
 
 /*FOOTER*/
-
+footer{
+  width: 100%;
+  position:relative;
+}
 .footer {
-  width:100vw;
-  left:0;
-  bottom: 0;
+  width: 100%;
+  background:url(img/comb.jpg);
+  background-size:cover;
   display: flex;
   overflow: hidden;
   padding: 1em;
-  background-color:#18181a;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -218,7 +248,7 @@ margin-left: 1em;
   float: left;
   height: 100%;
   display: block;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .inner-footer .logo-container img {
@@ -247,7 +277,7 @@ margin-left: 1em;
   color: white;
   display: block;
   width: 100%;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .inner-footer .footer-third a {
@@ -295,28 +325,18 @@ margin-left: 1em;
   margin: 5px 2px;
   color: white;
 }
-
+.fa-twitter{
+  padding: 0px;
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
 /*TUOTESIVU*/
 .addincart{
-  font-family: 'Nunito', sans-serif;
-  margin-bottom: 0.5em;
-  color: white;
-  background-color: #18181a;
-  border: none;
-  text-align: center;
-  padding: 8px 18px;
-  font-size: 18px;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: normal;
-  border-radius: 5px;
-}
-.tuotesivu{
-  padding: 5px;
-  align-items: center;
-}
-.returnbutton{
-  background-color: #18181a;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   text-align: center;
@@ -327,6 +347,28 @@ margin-left: 1em;
   font-family: 'Nunito', sans-serif;
   border-radius: 5px;
 }
+.addincart:hover{
+  background-color: black;
+}
+.tuotesivu{
+  margin: auto;
+  padding: 5px;
+}
+.returnbutton{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 15px 13px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 5px;
+}
+.returnbutton:hover{
+  background-color: black;
+}
 .linkkiverkkokauppaan{
   text-align: center;
   font-family: 'Nunito', sans-serif;
@@ -334,7 +376,14 @@ margin-left: 1em;
   text-decoration: none;
   font-weight: normal;
 }
-
+.addtocart{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+}
 /*BLOG*/
 .blogtext{
   padding: 1em;
