@@ -131,10 +131,10 @@ h2{
   width: 100%;
 }
 .kauppaotsikko{
-  padding:0.5em;
+  margin-left: 75px;
 }
 .kauppainfo{
-  margin-left:20px;
+  margin-left:80px;
 }
 .figure .quickcart{
   color:black;
@@ -155,10 +155,6 @@ ul {
 li {
   list-style: none;
   align-items: center;
-}
-
-figure {
-  margin:9px;
 }
 
 figure figcaption {
@@ -185,12 +181,12 @@ input {
 textarea {
   border-radius: .25em;
 }
-
-form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-margin-left: 1em;
+.lomake{
+  display: block;
+  margin:0, auto;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
 }
 .submit{
   background-color: rgba(0, 0, 0, 0.5);
@@ -344,10 +340,21 @@ footer{
   background-color: black;
 }
 .tuotesivu{
-  margin: auto;
-  padding: 5px;
+  display: block;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin:0, auto;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.description{
+  font-size: 18px;
 }
 .returnbutton{
+  margin-left: 1em;
+  margin-top: 1em;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
