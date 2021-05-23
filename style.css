@@ -113,7 +113,7 @@ h2{
 .container .btn {
   position: absolute;
   top: 5%;
-  left:70%;
+  left:73%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
@@ -360,7 +360,7 @@ footer{
 .description{
   font-size: 18px;
 }
-.returnbutton{
+.btn{
   margin-left: 1em;
   margin-top: 1em;
   background-color: rgba(0, 0, 0, 0.5);
@@ -374,7 +374,7 @@ footer{
   font-family: 'Nunito', sans-serif;
   border-radius: 5px;
 }
-.returnbutton:hover{
+.btn:hover{
   background-color: black;
 }
 .linkkiverkkokauppaan{
