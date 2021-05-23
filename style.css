@@ -21,6 +21,7 @@ body{
 /*navigointi*/
 header{
   width:100%;
+  background-color: #18181a;
 }
 .navbar{
   background:#18181a !important;
@@ -101,7 +102,7 @@ h2{
 /*Tuotevalikoima*/
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .container img {
@@ -111,8 +112,8 @@ h2{
 
 .container .btn {
   position: absolute;
-  top: 7%;
-  left: 140%;
+  top: 5%;
+  left:70%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
@@ -131,10 +132,10 @@ h2{
   width: 100%;
 }
 .kauppaotsikko{
-  margin-left: 75px;
+  margin-left: 10px;
 }
 .kauppainfo{
-  margin-left:80px;
+  margin-left:15px;
 }
 .figure .quickcart{
   color:black;
@@ -155,6 +156,7 @@ ul {
 li {
   list-style: none;
   align-items: center;
+  margin: auto;
 }
 
 figure figcaption {
@@ -177,10 +179,14 @@ h3 {
 input {
   border-radius: .25em;
 }
-
+input[type=text]:focus{
+  background-color: beige;
+}
 textarea {
   border-radius: .25em;
 }
+
+
 .lomake{
   display: block;
   margin:0, auto;
@@ -198,7 +204,7 @@ textarea {
   display: inline-block;
   font-family: 'Nunito', sans-serif;
   border-radius: 5px;
-  width: 5em;
+  width: 100px;
 }
 .submit:hover{
   background-color: black;
@@ -211,6 +217,7 @@ textarea {
 footer{
   width: 100%;
   position:relative;
+  box-shadow: 0 50vh 0 50vh black;
 }
 .footer {
   width: 100%;
@@ -222,6 +229,7 @@ footer{
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  height: 200px;
 }
 
 .inner-footer {
@@ -334,6 +342,7 @@ footer{
   display: inline-block;
   font-family: 'Nunito', sans-serif;
   border-radius: 5px;
+  margin-left: 1em;
 }
 .addincart:hover{
   background-color: black;
