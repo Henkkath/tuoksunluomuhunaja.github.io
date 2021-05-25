@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 html{
   width:100%;
+  background: #18181a;
 }
 body{
   display: -webkit-box;
@@ -219,11 +220,10 @@ textarea {
 footer{
   width: 100%;
   position: relative;
-  box-shadow: 0 50vh 0 50vh rgba(0, 0, 0, 0.92)
 }
 .footer {
   width: 100%;
-  background:url(img/comb.jpg);
+  background:#18181a;
   background-size:cover;
   display: flex;
   overflow: hidden;
