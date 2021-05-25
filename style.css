@@ -391,6 +391,10 @@ footer{
   text-decoration: none;
   font-weight: normal;
 }
+.hunajalinkki{
+  color: black;
+  font-style: italic;
+}
 /*BLOG*/
 .blogtext{
   padding: 1em;
